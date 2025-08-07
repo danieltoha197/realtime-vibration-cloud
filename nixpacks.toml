@@ -1,7 +1,6 @@
 [phases.setup]
 nixPkgs = [
-  "python311Full",
-  "gfortran",         
+  "python311",
   "pkg-config",
   "lapack",
   "blas"
@@ -12,3 +11,4 @@ cmds = ["pip install --no-cache-dir -r requirements.txt"]
 
 [start]
 cmd = "python realtime_vibration_server_telegram_fixed.py"
+
