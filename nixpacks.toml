@@ -14,5 +14,4 @@ nixPkgs = [
 cmds = ["pip install -r requirements.txt"]
 
 [start]
-cmd = "python realtime_vibration_server_telegram_fixed.py"  # Ganti sesuai file utama kamu
-
+cmd = "python realtime_vibration_server_telegram_fixed.py"
