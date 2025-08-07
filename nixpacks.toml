@@ -3,7 +3,6 @@ nixPkgs = [
   "python311",
   "python311Packages.pip",
   "python311Packages.setuptools",
-  "python311Packages.distutils-extra",
   "gcc",
   "gfortran",
   "pkg-config",
@@ -16,3 +15,4 @@ cmds = ["pip install -r requirements.txt"]
 
 [start]
 cmd = "python realtime_vibration_server_telegram_fixed.py"  # Ganti sesuai file utama kamu
+
